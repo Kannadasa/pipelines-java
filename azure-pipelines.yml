@@ -19,9 +19,7 @@ strategy:
       jdkVersion: "1.10"
     jdk11:
       jdkVersion: "1.11"
-    jdk12:
-      jdkVersion: "1.12"
-  maxParallel: 4
+  maxParallel: 3
 
 steps:
 - task: Maven@3
